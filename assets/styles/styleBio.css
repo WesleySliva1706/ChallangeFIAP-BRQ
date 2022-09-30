@@ -12,22 +12,51 @@ body {
 }
 
 .biometrias-cadastradas {
-    overflow: auto;
-    background-color: #6e6e6e;
+    background-color: rgba(110, 110, 110, 0.5);
     border-radius: 50px;
+    overflow-x: auto;
+}
+
+.biometrias-cadastradas::-webkit-scrollbar {
+    opacity: 0;
 }
 
 .card {
     position: relative;
     width: 297px;
     height: 425px;
-    max-width: 297px;
-    max-height: 425px;
 
     border-radius: 50px;
+    border: none;
 
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
+
+    background-color: rgba(110, 110, 110, 0.5);
+
+    color: #FFF;
+    font-size: 50px;
+}
+
+.card-header {
+    background-color: #000 !important;
+    border-radius: 50px 50px 0px 0px !important;
+    border-bottom: 7.5px solid #373737;
+    height: 100px !important;
+    overflow: auto !important;
+}
+
+.img-digital {
+    position: relative;
+    top: 10%;
+}
+
+.card-footer {
+    background-color: #000 !important;
+    border-radius: 0px 0px 50px 50px !important;
+    border-top: 7.5px solid #373737;
+    height: 100px !important;
+    overflow: auto !important;
 }
