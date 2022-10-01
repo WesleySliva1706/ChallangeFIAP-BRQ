@@ -25,11 +25,16 @@
     text-align: center;
 }
 
-.leitor-digital {
+.leitor-digital,
+.btn-edit {
     position: relative;
     text-align: center;
 }
 
-btn {
-    background-color: rgba(0, 0, 0, 0) !important;
+.btn-dark {
+    font-size: 30px;
+}
+
+.box-edit {
+    height: 425px !important;
 }
