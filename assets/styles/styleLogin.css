@@ -49,7 +49,7 @@
     text-align: center;
 }
 
-input {
+.input-log {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
 }
