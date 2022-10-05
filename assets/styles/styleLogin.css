@@ -3,11 +3,11 @@
     top: -75px;
 }
 
-.box-new {
+.box-log {
     width: 850px !important;
-    height: 612px !important;
+    height: 500px !important;
     max-width: 850px !important;
-    max-height: 612px !important;
+    max-height: 500px !important;
 }
 
 .formulario {
@@ -32,8 +32,8 @@
 }
 
 .btn-dark {
+    background-color: #000 !important;
     font-size: 30px;
-    border-radius: 50px;
 }
 
 .box-edit {
@@ -47,4 +47,32 @@
 
 .btn-pro {
     text-align: center;
+}
+
+input {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.input-group-text {
+    background-color: #000 !important;
+    border: none;
+    border-radius: 50px;
+}
+
+.txt-label {
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+.ct2 {
+    margin-top: -20px;
+}
+
+.esqueci-senha {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
 }
