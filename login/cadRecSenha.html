@@ -18,36 +18,33 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/styles/styles.css">
-    <link rel="stylesheet" href="../assets/styles/styleNew.css">
+    <link rel="stylesheet" href="../assets/styles/styleLogin.css">
 
 
-    <title>Recuperação de Senha</title>
+    <title>Login</title>
 </head>
 
 <div class="container">
     <div class="img-top-box">
         <img src="../assets/imgs/crown.png" alt="Símbolo de uma coroa com um fundo preto e cinza" class="crown-top">
     </div>
-    <div class="row biometrias-cadastradas box-edit">
+    <div class="row biometrias-cadastradas box-edit-2">
         <form method="get" action="../home/index.html" class="formulario">
 
-            <div class="mb-3 pergunta">
-                <label for="idResposta" class="form-label">Lorem Ipsum?</label>
+            <div class="mb-3">
+                <input type="text" class="form-control" aria-describedby="Input para a resposta de recuperação de senha"
+                    placeholder="Insira a pergunta de recuperação:" required maxlength="30">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" aria-describedby="Input para a resposta de recuperação de senha"
+                    placeholder="Insira a resposta:" required maxlength="30">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" aria-describedby="Input para a resposta de recuperação de senha"
+                    placeholder="Insira novamente a resposta:" required maxlength="30">
             </div>
 
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" id="idResposta"
-                    aria-describedby="Input para a resposta de recuperação de senha" placeholder="Digita a resposta:"
-                    required maxlength="30">
-                <span class="input-group-text"><a type="button"><img src="../assets/imgs/borracha.png"
-                            alt="Icone de uma borracha" class="btn-borracha"></a></span>
-
-            </div>
-
-            <div class="mb-3 btns-rec-pergunta">
-                <button type="button" class="btn btn-danger" onclick="window.location.href = '../login/index.html'">
-                    Voltar
-                </button>
+            <div class="mb-3 btn-pro">
                 <button type="submit" class="btn btn-dark">
                     Enviar
                 </button>

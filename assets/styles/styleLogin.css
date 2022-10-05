@@ -40,6 +40,11 @@
     height: 425px !important;
 }
 
+.box-edit-2 {
+    height: 520px !important;
+    max-height: 520px !important;
+}
+
 .btn-pro {
     text-align: center;
 }
