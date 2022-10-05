@@ -1,12 +1,6 @@
 * {
     font-family: 'Inter', 'sans-serif';
     color: #FFF;
-    list-style: none;
-    margin: 0;
-    padding: 0px;
-    font-size: 60px;
-    font-style: normal;
-    color: white;
 }
 
 body {
@@ -77,12 +71,21 @@ input::placeholder {
     width: 796px;
 }
 
-.relogio,
+.relogio {
+    position: relative;
+    left: 50px;
+}
+
 .data-hora,
 .medidor-ar,
 .scroll-ar {
     position: relative;
-    left: 100px;
+    left: 75px;
+}
+
+.data-hora,
+.medidor-ar {
+    font-size: 75px;
 }
 
 li {
@@ -108,5 +111,5 @@ ul {
 
 .navbar-container {
     position: relative;
-    left: -75px;
+    left: -100px;
 }
