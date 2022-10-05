@@ -113,3 +113,40 @@ ul {
     position: relative;
     left: -100px;
 }
+
+.crown-top {
+    margin-top: 200px;
+    width: 128px;
+    height: 128px;
+}
+
+.pergunta {
+    text-align: center;
+    font-size: 50px;
+}
+
+#idResposta {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.input-group-text {
+    background-color: #373737 !important;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-borracha {
+    width: 65px;
+    height: 65px;
+}
+
+.btns-rec-pergunta {
+    padding-left: 250px;
+}
+
+.btn-danger {
+    font-size: 30px;
+    border-radius: 50px;
+    margin-right: 350px;
+}

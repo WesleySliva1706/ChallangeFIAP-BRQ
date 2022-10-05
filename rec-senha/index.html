@@ -24,40 +24,32 @@
     <title>Biometria</title>
 </head>
 
-<a href="index.html">
-    <img src="../assets/imgs/voltar.png" alt="Seta de voltar">
-</a>
-
 <div class="container">
     <div class="img-top-box">
-        <img src="../assets/imgs/digital-v2.png" alt="Símbolo de uma digital com um fundo preto e cinza">
+        <img src="../assets/imgs/crown.png" alt="Símbolo de uma coroa com um fundo preto e cinza" class="crown-top">
     </div>
     <div class="row biometrias-cadastradas box-edit">
         <form method="get" action="index.html" class="formulario">
-            <div class="mb-3">
-                <input type="text" class="form-control" id="idNome" aria-describedby="Nome do dono da biometria"
-                    placeholder="Insira seu nome:" required maxlength="30">
+
+            <div class="mb-3 pergunta">
+                <label for="idResposta" class="form-label">Lorem Ipsum?</label>
             </div>
 
-            <div class="mb-3">
-                <select class="form-select" aria-label="Qual dedo foi cadastrado">
-                    <option value="0" selected>Qual é o dedo cadastrado?</option>
-                    <option value="1">Mindinho E</option>
-                    <option value="2">Mindinho D</option>
-                    <option value="3">Anelar E</option>
-                    <option value="4">Anelar D</option>
-                    <option value="5">Meio E</option>
-                    <option value="6">Meio D</option>
-                    <option value="7">Indicador E</option>
-                    <option value="8">Indicador D</option>
-                    <option value="9">Polegar E</option>
-                    <option value="10">Polegar D</option>
-                </select>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="idResposta"
+                    aria-describedby="Input para a resposta de recuperação de senha" placeholder="Digita a resposta:"
+                    required maxlength="30">
+                <span class="input-group-text"><a type="button"><img src="../assets/imgs/borracha.png"
+                            alt="Icone de uma borracha" class="btn-borracha"></a></span>
+
             </div>
 
-            <div class="mb-3 btn-edit">
+            <div class="mb-3 btns-rec-pergunta">
+                <button type="button" class="btn btn-danger" onclick="window.location.href = '../login/index.html'">
+                    Voltar
+                </button>
                 <button type="submit" class="btn btn-dark">
-                    Editar
+                    Enviar
                 </button>
             </div>
         </form>
