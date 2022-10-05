@@ -1,0 +1,44 @@
+.card {
+    position: relative;
+    width: 297px;
+    height: 425px;
+
+    border-radius: 50px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+
+    background-color: rgba(110, 110, 110, 0.5);
+
+    color: #FFF;
+    font-size: 40px;
+}
+
+.btn-digital {
+    position: relative;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-lixo {
+    position: relative;
+    top: 5%;
+    left: 42%;
+}
+
+.card-footer {
+    background-color: #000 !important;
+    border-radius: 0px 0px 50px 50px !important;
+    border-top: 7.5px solid #373737;
+    height: 100px !important;
+    overflow: auto !important;
+    text-align: center !important;
+}
+
+.btn-nova {
+    position: relative;
+    top: 90px;
+    text-align: center;
+}
