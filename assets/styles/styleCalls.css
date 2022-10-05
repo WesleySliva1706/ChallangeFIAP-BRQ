@@ -1,0 +1,50 @@
+* {
+    font-family: 'Inter';
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #323638 !important;
+    background-size: 100% 100%;
+}
+
+/* Tela main  */
+#title {
+    padding-top: 10%;
+}
+
+#recusar {
+    padding-right: 200px;
+}
+
+#atender {
+    padding-left: 200px;
+}
+
+/* Tela call-now */
+#mudo {
+    padding-right: 110px;
+}
+
+#cancelar {
+    padding-left: 110px;
+}
+
+/* Tela calling  */
+#subtitle {
+    top: -90px;
+    position: relative;
+    font-size: 60px;
+    color: #8f9396;
+    padding-bottom: 0%;
+}
+
+#title-main {
+    padding-top: 14%;
+    padding-bottom: 8%;
+}
