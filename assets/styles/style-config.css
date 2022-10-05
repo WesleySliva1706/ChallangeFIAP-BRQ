@@ -1,0 +1,87 @@
+* {
+    background-color: rgb(50, 54, 56);
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    font-style: normal;
+    color: aliceblue;
+}
+
+body {
+    margin: auto;
+    width: 1440px;
+    height: 960px;
+}
+
+.lista-config {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 150px;
+}
+
+li {
+    background-color: rgb(105, 105, 105);
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+}
+
+.biometria {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.bluetooth {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.emergencia {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.hora-data {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.seguro {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.sair {
+    background-color: rgb(105, 105, 105);
+    padding-top: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.btn-voltar {
+    display: flex;
+    position: absolute;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.btn-voltar:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
